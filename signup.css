@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.main img{
+    max-width: 450px;
+}
+@font-face {
+    font-family: 'robolitalic';
+    src: url(./resources/font/Roboto-LightItalic.ttf);
+    font-family: 'robomitalic';
+    src: url(./resources/font/Roboto-MediumItalic.ttf);
+}
+.design{
+    text-align: left;
+    padding: 1%;
+    margin: auto 5%;
+    width: 40%;
+}
+.design p{
+    width: 100%;
+    font-family: 'robomitalic';
+}
+h1{
+    font-family: 'robomitalic';
+    font-size: xx-large;
+    color: black;
+}
+.navbar {
+    width: 100%;
+    background-color: black;
+    margin-top: -20px;
+    text-align: center;
+}
+.navbar p{
+    font-family: 'robomitalic';
+    font-size: large;
+    color: white;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    margin: 2%;
+    font-family: 'robomitalic';
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    width: 50%;
+    height: 400px; /* to horizontally center a block element*/
+    box-shadow: 12px 12px 0px 1px black;
+}
+.form-examples{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+.form-example{
+    margin: 1%;
+    
+}
+.form-example input{
+    font-size: medium;
+    padding: 1%;
+    width: 70%;
+}
+.submit button{
+    margin: 1%;
+    width: 71%;
+}
+.footer{
+    margin: auto;
+    background-color: black;
+    margin: 1% auto;
+    width: 100%;
+    height: 50px;
+}
+.footer p{
+    color: white;
+    font-size: small;
+    text-align: center;
+}

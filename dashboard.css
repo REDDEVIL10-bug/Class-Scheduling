@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 100%;
+    max-width: 350px; /*for making responsive*/
+    height: 300px;
+    object-fit: cover; /*for cropping to maintain aspect ratio*/
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+  
+/* .header{
+    /* display: flex;
+    justify-content: center;
+    background: #0a0a23;
+    color: #fff;
+} */ */
+.header {
+    display: block;
+    background: #0a0a23;
+    color: #fff;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.header p{
+    text-align: center;
+    color: bisque;
+}
+.header button{
+    width: min-content;
+    height: max-content;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  /*for items to move to next row*/
+    justify-content: center; /*centering flex, grid items*/
+    align-items: center; /*aligns the flex content along cross axis*/
+    padding: 20px 10px; 
+    max-width: 1400px ; /*max size of the container*/
+    margin: 0 auto;
+    gap: 16px; /*gap between the rows and columns of flex, grid etc*/
+}
+.gallery button{
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+}
+.gallery button:hover{
+    background-color:#dfdfdf;
+    border: none;
+    border-radius: 10px;
+}
+
